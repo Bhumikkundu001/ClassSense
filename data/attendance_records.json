@@ -1,0 +1,113 @@
+[
+    {
+        "id": "c7c2c654-9b93-43d5-8b9a-3d931934fb34",
+        "timestamp": "2026-09-06T23:29:17.563177",
+        "image_name": "2_unknown_test.jpg",
+        "total_enrolled": 5,
+        "present_students": [
+            "BU001",
+            "BU002"
+        ],
+        "absent_students": [
+            "BU003",
+            "BU004",
+            "BU005"
+        ],
+        "unknown_faces": 1
+    },
+    {
+        "id": "eb6a2bbe-6489-4676-ac08-131799cb71a7",
+        "timestamp": "2026-09-06T23:13:55.683692",
+        "image_name": "2_unknown_test.jpg",
+        "total_enrolled": 5,
+        "present_students": [
+            "BU001",
+            "BU002"
+        ],
+        "absent_students": [
+            "BU003",
+            "BU004",
+            "BU005"
+        ],
+        "unknown_faces": 1
+    },
+    {
+        "id": "a2fcd0c6-45ed-46ad-a227-f10fddf068b6",
+        "timestamp": "2026-09-06T22:29:03.570538",
+        "image_name": "2 classroom images",
+        "total_enrolled": 5,
+        "present_students": [
+            "BU001",
+            "BU002"
+        ],
+        "absent_students": [
+            "BU003",
+            "BU004",
+            "BU005"
+        ],
+        "unknown_faces": 1
+    },
+    {
+        "id": "ff6a596f-4cb7-4154-9ba0-4698c7225bd3",
+        "timestamp": "2026-09-06T21:11:41.638390",
+        "image_name": "2 classroom images",
+        "total_enrolled": 5,
+        "present_students": [
+            "BU001",
+            "BU002"
+        ],
+        "absent_students": [
+            "BU003",
+            "BU004",
+            "BU005"
+        ],
+        "unknown_faces": 1
+    },
+    {
+        "id": "efa12841-b058-49d5-99ca-8860a189658f",
+        "timestamp": "2026-09-06T06:34:18.479164",
+        "image_name": "1000296545.jpg",
+        "total_enrolled": 5,
+        "present_students": [
+            "BU001",
+            "BU002"
+        ],
+        "absent_students": [
+            "BU003",
+            "BU004",
+            "BU005"
+        ],
+        "unknown_faces": 0
+    },
+    {
+        "timestamp": "2026-09-06T06:16:05.801120",
+        "image_name": "1000296545.jpg",
+        "total_enrolled": 5,
+        "present_students": [
+            "BU001",
+            "BU002"
+        ],
+        "absent_students": [
+            "BU003",
+            "BU004",
+            "BU005"
+        ],
+        "unknown_faces": 0
+    },
+    {
+        "id": "84fc492c-788a-4861-b4f0-f5fb8c540cc4",
+        "timestamp": "2026-09-07T14:53:30.767334",
+        "image_name": "2_unknown_test.jpg",
+        "total_enrolled": 5,
+        "present_students": [
+            "BU001",
+            "BU002"
+        ],
+        "absent_students": [
+            "BU003",
+            "BU004",
+            "BU005"
+        ],
+        "unknown_faces": 1
+    }
+]

@@ -1,0 +1,9 @@
+========================================
+CLASSENSE SESSION SUMMARY
+========================================
+
+Images successfully processed: 2
+Total faces detected: 5
+Students present: 2
+Students absent: 3
+Unknown faces: 1

@@ -1,0 +1,24 @@
+========================================
+CLASSENSE SESSION SUMMARY
+========================================
+
+Session ID: session_2026-09-06_04-31-20
+
+PROCESSING STATISTICS
+----------------------------------------
+Images successfully processed: 2
+Total faces detected: 5
+Unknown faces: 1
+
+PRESENT STUDENTS
+----------------------------------------
+Total present: 2
+BU001 -> PRESENT
+BU002 -> PRESENT
+
+ABSENT STUDENTS
+----------------------------------------
+Total absent: 3
+BU003 -> ABSENT
+BU004 -> ABSENT
+BU005 -> ABSENT
