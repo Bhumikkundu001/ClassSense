@@ -3,7 +3,7 @@ import { useState } from "react"
 import "./Login.css"
 
 
-const API_URL = "http://127.0.0.1:8000"
+const API_URL = "https://classesense-backend.onrender.com"
 
 
 function Login({ onLogin }) {

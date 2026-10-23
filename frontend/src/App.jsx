@@ -4,7 +4,7 @@ import "./App.css"
 import Login from "./pages/Login"
 
 
-const API_URL = "http://127.0.0.1:8000"
+const API_URL = "https://classesense-backend.onrender.com"
 
 
 function App() {
