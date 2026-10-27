@@ -1,20 +1,13 @@
 import { useState } from "react"
 import "./App.css"
 
-import Login from "./pages/Login"
 
-
-const API_URL = "https://classesense-backend.onrender.com"
+const API_URL = import.meta.env.DEV
+  ? "http://127.0.0.1:8000"
+  : "https://classesense-backend.onrender.com"
 
 
 function App() {
-
-  // ----------------------------------------------
-  // AUTHENTICATION
-  // ----------------------------------------------
-
-  const [user, setUser] = useState(null)
-
 
   // ----------------------------------------------
   // ATTENDANCE IMAGES
@@ -732,36 +725,6 @@ function App() {
 
 
   // ----------------------------------------------
-  // LOGOUT
-  // ----------------------------------------------
-
-  function handleLogout() {
-
-    setUser(
-      null
-    )
-
-  }
-
-
-  // ----------------------------------------------
-  // LOGIN CHECK
-  // ----------------------------------------------
-
-  if (!user) {
-
-    return (
-
-      <Login
-        onLogin={setUser}
-      />
-
-    )
-
-  }
-
-
-  // ----------------------------------------------
   // MAIN APPLICATION
   // ----------------------------------------------
 
@@ -789,19 +752,6 @@ function App() {
 
         <div className="header-right">
 
-          <div className="logged-user">
-
-            <strong>
-              {user.username}
-            </strong>
-
-            <span>
-              {user.role}
-            </span>
-
-          </div>
-
-
           <div className="status">
 
             <span></span>
@@ -809,16 +759,6 @@ function App() {
             AI System Ready
 
           </div>
-
-
-          <button
-            className="logout-button"
-            onClick={handleLogout}
-          >
-
-            Logout
-
-          </button>
 
         </div>
 
