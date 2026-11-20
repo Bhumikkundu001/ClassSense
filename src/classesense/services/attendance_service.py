@@ -52,8 +52,17 @@ class AttendanceService:
                 self._initialized = True
 
     def get_students(self):
-        self.ensure_initialized()
-        return sorted(self.student_database.keys())
+        """
+        Return enrolled student IDs directly from folders.
+        Does not initialize the face recognition model.
+        """
+        STUDENTS_DIR.mkdir(parents=True, exist_ok=True)
+
+        return sorted(
+            folder.name
+            for folder in STUDENTS_DIR.iterdir()
+            if folder.is_dir()
+        )
 
     def create_attendance_session(self):
         self.ensure_initialized()
