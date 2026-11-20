@@ -11,7 +11,6 @@ class FaceDetector:
     def __init__(self):
         print("Loading InsightFace...")
 
-        # Import only when a detector is actually initialized.
         from insightface.app import FaceAnalysis
 
         from classesense.core import (
@@ -23,10 +22,11 @@ class FaceDetector:
         self.app = FaceAnalysis(
             name=MODEL_NAME,
             providers=PROVIDERS,
+            allowed_modules=["detection", "recognition"],
         )
 
         self.app.prepare(
-            ctx_id=0,
+            ctx_id=-1,
             det_size=DETECTION_SIZE,
         )
 
