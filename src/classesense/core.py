@@ -67,19 +67,16 @@ MATCH_THRESHOLD = 0.40
 
 
 # InsightFace model configuration
-MODEL_NAME = "buffalo_l"
+MODEL_NAME = "buffalo_s"
 
 PROVIDERS = [
     "CPUExecutionProvider"
 ]
 
-
-# Face detection image size
 DETECTION_SIZE = (
-    640,
-    640
+    320,
+    320
 )
-
 
 # --------------------------------------------------
 # OUTPUT SETTINGS
